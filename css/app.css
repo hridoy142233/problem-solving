@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+
+}
+.announcment{
+	background-color: #3384fc;
+	padding: 10px;
+	text-align: center;
+}
+
+.announcment a{
+   color: white;
+   font-size: 15px;
+   letter-spacing: 1px;
+   text-decoration: none;
+}
+
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px 5%;
+	align-items: center;
+	
+}
+.logo{
+	flex-basis: 15%;
+}
+.logo a{
+	font-size: 60px;
+	color:#2c3e50;
+	text-transform: lowercase;
+	font-weight: 900;
+	text-decoration: none;
+}
+.menu{
+	flex-basis: 70%;
+}
+.menu ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+.menu ul li a{
+	color: #2c3e50;
+	font-size: 18px;
+	padding: 12px 20px;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 500;
+	transition: 0.3s;
+}
+.menu ul li a:hover{
+	background-color: #3384fc;
+	color: white;
+	border-radius: 4px;
+}
+.cart{
+	flex-basis: 15%;
+}
+.cart ul{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+}
+.cart ul li{}
+.cart ul li a{
+	color: #2c3e50;
+	font-size: 20px;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	border: 1px dashed #2c3e50;
+	border-radius: 4px;
+	margin-left: 10px;
+	transition: 0.3s;
+}
+.cart ul li a:hover{
+	background-color: #3384fc;
+	border-color: #3384fc;
+	color: white;
+}
+
+.banner img{
+	width: 100%;
+}
+
+.about-us{
+	padding: 100px;
+	
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+h1{
+	font-size: 40px;
+	color: #2c3e50;
+	margin-bottom: 20px;
+}
+.about-us p{
+	max-width: 800px;
+}
+p{
+	font-size: 18px;
+	color: #2c3e50;
+}
+.aboutus-content{
+    flex-basis: 70%;
+}
+.aboutus-img{
+    flex-basis: 30%;
+    background-image: url(../images/8.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.blogs{
+	padding: 100px 0;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.post{
+	flex-basis: 33.33%;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.post img{
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+}
+.post h2{
+	font-size: 21px;
+	color: #2c3e50;
+	margin: 20px 0 10px;
+}
+.post p{
+	opacity: 0.8;
+	font-weight: 300;
+}
